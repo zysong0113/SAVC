@@ -62,7 +62,7 @@ There are five parts in the code.
 Remember to change `YOURDATAROOT` into your own data root. If you want to use incremental finetuning, set `-incft`. 
 
 ## Acknowledgment
-We thank the following repos providing helpful components/functions in our work.\
+We thank the following repos providing helpful components/functions in our work.
 
 - [CEC](https://github.com/icoz69/CEC-CVPR2021)
 - [SLA](https://github.com/hankook/SLA)
