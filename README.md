@@ -19,10 +19,10 @@ However, in this work, we find that the CE loss is not ideal for the base sessio
 ## Pipline
 The whole learning pipline of our model:
 
-<img src='imgs/pipeline.png' width='2000' height='300'>
+<img src='imgs/pipeline.png' width='1502' height='756'>
 
 ## Results
-<img src='imgs/results.png' width='2000' height='300'>
+<img src='imgs/results.png' width='1660' height='1052'>
 Please refer to our [paper](https://arxiv.org/abs/2304.00426) for detailed values.
 
 ## Requirements
