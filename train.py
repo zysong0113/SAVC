@@ -4,7 +4,7 @@ from utils import *
 import traceback
 
 MODEL_DIR=None
-DATA_DIR = '../../../../../data/'
+DATA_DIR = 'data/'
 PROJECT='savc'
 
 def get_command_line_parser():
@@ -35,10 +35,8 @@ def get_command_line_parser():
     parser.add_argument('-batch_size_base', type=int, default=64)
     parser.add_argument('-batch_size_new', type=int, default=0, help='set 0 will use all the availiable training image for new')
     parser.add_argument('-test_batch_size', type=int, default=100)
-    parser.add_argument('-base_mode', type=str, default='ft_cos',
-                        choices=['ft_dot', 'ft_cos']) # ft_dot means using linear classifier, ft_cos means using cosine classifier
-    parser.add_argument('-new_mode', type=str, default='avg_cos',
-                        choices=['ft_dot', 'ft_cos', 'avg_cos']) # ft_dot means using linear classifier, ft_cos means using cosine classifier, avg_cos means using average data embedding and cosine classifier
+    parser.add_argument('-base_mode', type=str, default='ft_cos') # using cosine classifier
+    parser.add_argument('-new_mode', type=str, default='avg_cos') # using average data embedding and cosine classifier
 
     # for SAVC
     parser.add_argument('-moco_dim', default=128, type=int,
