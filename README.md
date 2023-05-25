@@ -3,10 +3,11 @@ The implementation of CVPR 2023 paper Learning with Fantasy: Semantic-Aware Virt
 If you use the code in this repo for your work, please cite the following bib entries:
 
 ```
-@article{song2023learning,
+@inproceedings{song2023learning,
   title={Learning with Fantasy: Semantic-Aware Virtual Contrastive Constraint for Few-Shot Class-Incremental Learning},
   author={Song, Zeyin and Zhao, Yifan and Shi, Yujun and Peng, Peixi and Yuan, Li and Tian, Yonghong},
-  journal={arXiv preprint arXiv:2304.00426},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={24183--24192},
   year={2023}
 }
 ```
