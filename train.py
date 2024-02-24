@@ -32,7 +32,7 @@ def get_command_line_parser():
     parser.add_argument('-gamma', type=float, default=0.1)
     parser.add_argument('-temperature', type=int, default=16)
     parser.add_argument('-not_data_init', action='store_true', help='using average data embedding to init or not')
-    parser.add_argument('-batch_size_base', type=int, default=64)
+    parser.add_argument('-batch_size_base', type=int, default=128)
     parser.add_argument('-batch_size_new', type=int, default=0, help='set 0 will use all the availiable training image for new')
     parser.add_argument('-test_batch_size', type=int, default=100)
     parser.add_argument('-base_mode', type=str, default='ft_cos') # using cosine classifier
